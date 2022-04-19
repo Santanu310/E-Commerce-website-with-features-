@@ -200,8 +200,8 @@ header .header-2.header-active {
 }
 
 .home-slider {
-    position: relative;
-    z-index: -9999;
+    /* position: relative;
+    z-index: -9999; */
 }
 
 .home .home-slider .item {
@@ -262,8 +262,8 @@ header .header-2.header-active {
 .arrival {
     min-height: 100vh;
     background-color: #242424;
-    position: relative;
-    z-index: -99999;
+    /* position: relative;
+    z-index: -99999; */
 }
 
 .arrival .box-container {
@@ -378,8 +378,8 @@ header .header-2.header-active {
     min-height: 100vh;
     background: linear-gradient(165deg, #fff 50%, var(--blue) 50.1%);
     padding-bottom: 2rem;
-    position: relative;
-    z-index: -99999;
+    /* position: relative;
+    z-index: -99999; */
 }
 
 .feature .row {
@@ -565,8 +565,8 @@ header .header-2.header-active {
 .deal {
     min-height: 100vh;
     background-color: #242424;
-    position: relative;
-    z-index: -99999;
+    /* position: relative;
+    z-index: -99999; */
 }
 
 .deal .box-container {
