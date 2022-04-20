@@ -199,10 +199,11 @@ header .header-2.header-active {
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
 }
 
-.home-slider {
-    /* position: relative;
-    z-index: -9999; */
-}
+
+/* .home-slider {
+    position: relative;
+    z-index: -9999;
+} */
 
 .home .home-slider .item {
     position: relative;
@@ -838,8 +839,11 @@ header .header-2.header-active {
     html {
         font-size: 55%;
     }
-    header .header-1 .form-container form #search {
-        width: 100%;
+    header .header-2 .form-container form input {
+        margin-left: -300px;
+    }
+    header .header-2 .icons {
+        padding: 0 2rem;
     }
     header .header-2 #menu {
         display: block;
@@ -847,7 +851,7 @@ header .header-2.header-active {
     header .header-2 .navbar {
         position: fixed;
         top: -200rem;
-        left: 50%;
+        left: 30%;
         transform: translate(-50%, -50%);
         box-shadow: 0 0 0 100vh rgba(0, 0, 0, .3);
         z-index: 10000;
@@ -886,6 +890,20 @@ header .header-2.header-active {
     html {
         font-size: 50%;
     }
+    header .header-1 .home_contact .logo {
+        font-size: 50%;
+        padding-left: 30px;
+    }
+    header .header-1 .home_contact .logo a img {
+        width: 200px;
+        height: 80px;
+    }
+    header .header-2 .form-container form input {
+        margin-left: -280px;
+    }
+    header .header-2 .icons {
+        padding: 0 6rem;
+    }
     .home .home-slider .item .content h3 {
         font-size: 3rem;
     }
@@ -912,15 +930,78 @@ header .header-2.header-active {
     }
 }
 
+@media (max-width:414px) {
+    html {
+        font-size: 45%;
+    }
+    header .header-1 {
+        flex-flow: column wrap;
+        padding: 1rem;
+    }
+    header .header-1 .logo {
+        width: 10%;
+        /* padding-bottom: 1.5rem; */
+    }
+    header .header-1 .home_contact .logo {
+        padding-left: 20px;
+    }
+    header .header-1 .home_contact .logo a img {
+        width: 150px;
+        height: 50px;
+    }
+    header .header-1 .contact {
+        padding-left: 155px;
+    }
+    header .header-1 .contact p,
+    a {
+        font-size: 10px;
+    }
+    header .header-2 .form-container form #search {
+        width: 20rem;
+        font-size: 10px;
+    }
+    header .header-2 .icons {
+        padding: 0 5px;
+    }
+    header .header-2 .icons a {
+        padding: 5px 0px;
+    }
+}
+
 @media (max-width:400px) {
     html {
         font-size: 45%;
     }
     header .header-1 {
-        flex-flow: column;
+        flex-flow: column wrap;
         padding: 1rem;
     }
     header .header-1 .logo {
-        padding-bottom: 1.5rem;
+        width: 10%;
+        /* padding-bottom: 1.5rem; */
+    }
+    header .header-1 .home_contact .logo {
+        padding-left: 20px;
+    }
+    header .header-1 .home_contact .logo a img {
+        width: 150px;
+        height: 50px;
+    }
+    header .header-1 .contact {
+        padding-left: 155px;
+    }
+    header .header-1 .contact p,
+    a {
+        font-size: 10px;
+    }
+    header .header-2 .form-container form #search {
+        width: 15rem;
+        font-size: 8px;
+    }
+    header .header-2 .icons {
+        padding: 0 1px;
+    }
+    header .header-2 .icons a {
+        padding: 5px 0px;
     }
 }
